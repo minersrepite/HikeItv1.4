@@ -1,0 +1,545 @@
+
+@font-face {
+    font-family: PantonBlackCaps;
+    src: url("../fonts/p1.otf");
+}
+@font-face {
+    font-family: PantonBlackCapsItalic;
+    src: url("../fonts/p2.otf");
+}
+@font-face {
+    font-family: PantonLightCaps;
+    src: url("../fonts/p3.otf");
+}
+@font-face {
+    font-family: PantonLightCapsItalic;
+    src: url("../fonts/p4.otf");
+}
+
+h1{
+	font-family: PantonBlackCaps;
+}
+
+h2{
+	font-family: 'Helvetica';
+}
+
+p, span, input, button{
+	font-family: 'Helvetica';
+}
+
+.header-custom{
+	width: 100%;
+}
+
+.logo{
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	color: #2c3e50;
+	display: inline-block;
+}
+
+.logo span{
+	font-family: "PantonBlackCaps";
+	color: #16a085;
+}
+
+.under-logo{
+	position: absolute;
+    bottom: -16px;
+    left: 12px;
+}
+
+.header-container{
+	width: 100%;
+	max-width: 1215px;
+	display: block;
+	margin: 0px auto;
+	position: relative;
+}
+
+
+.links{
+	list-style: none;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.links li{
+	list-style: none;
+    display: inline-block;
+    color: #404040;
+    margin: 0px 10px;
+    font-size: 19px;
+    font-family: PantonLightCaps;
+    letter-spacing: 1.5px;
+}
+
+.mobile{
+	margin-left: 0px;
+	padding-left: 10px;
+	height: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mobile li{
+	list-style: none;
+}
+
+.burger{
+	display: none;
+}
+
+li:link{
+
+}
+li:visited{
+
+}
+li:hover{
+	border-bottom: solid 1px #5cb0e4;
+	cursor: pointer;
+	color: black;
+}
+li:active{
+
+}
+
+.bg{
+	background: url('../img/bg9.jpg') center;
+	background-size: cover;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+}
+
+.bg2{
+	background: url('../img/bg4.jpg') center;
+	background-size: cover;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+}
+
+.bg3{
+	min-height: 450px;
+	background: url('../img/bg3.jpg') center;
+	background-size: cover;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+}
+
+.floating-text{
+	display: table-cell;
+    vertical-align: middle;
+    opacity: 0;
+}
+
+.jumbo-text-main, .jumbo-text-sub{
+	text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: rgba(255,255,255,1.00);
+    border-style: none;
+    border-width: 0px;
+    border-radius: 2px 2px 2px 2px;
+    text-shadow: 1px 1px 1px #000000;
+}
+.section{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.section-text-head{
+	text-align: center;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.img-container{
+	width: 85%;
+    display: block;
+    margin: 0px auto;
+    overflow: hidden;
+    height: 230px;
+}
+
+.img-container-gear{
+	max-width: 220px;
+	min-width: 180px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 230px;
+}
+.img-container-gear img{
+	display: block;
+    margin: 0px auto;
+    width: 200px;
+}
+
+
+.img-container img{
+    display: block;
+    margin: 0px auto;
+}
+
+.sub-heading{
+	font-family: "PantonLightCaps";
+	font-size: 24px;
+	text-align: center;
+}
+
+.body-text{
+	font-family: Arial;
+	font-size: 17px;
+	text-align: center;
+}
+
+.body-text a{
+	font-weight: 600;
+    color: #36687d;
+}
+.body-text a:hover{
+	color: #444;
+}
+
+.bg2{
+		background-position: 0px 0px;
+		min-height: 450px; 
+}
+
+/*contact form*/
+
+#contact{
+	border: solid 1px #dadada;
+    border-radius: 7px;
+    padding: 30px 50px;
+}
+
+#contact-form{
+	width: 100%;
+	max-width: 600px;
+	display: block;
+	margin: 0px auto;
+}
+
+.contact-input{
+	border-radius: 5px;
+    border-color: #bbbbbb;
+    width: 100%;
+    max-width: 600px;
+    margin: 16px 10px;
+    font-size: 15px;
+}
+
+.submit-button{
+	border: solid 1px #65b3e2;
+    padding: 10px 25px;
+    border-radius: 7px;
+    display: block;
+    margin: 30px auto;
+    background-color: rgb(101,179,226, 0);
+    color: black;
+}
+
+.submit-button:hover{
+	cursor: pointer;
+    background-color: rgb(101,179,226, 1);
+	color: white;
+    -webkit-transition:background-color 0.5s;
+    -moz-transition:background-color 0.5s;
+    transition:background-color 0.5s;
+}
+
+input, button:focus {outline:0;}
+
+a { color: inherit; } 
+
+/*Footer*/
+
+.section-table{
+	display: table;
+	width: 100%;
+}
+
+.sub-cell{
+	display: table-cell;
+}
+
+.static{
+	width: 100px;
+}
+
+.bgblue{
+	background-color: #5890a1;
+    padding: 100px 0px;
+}
+
+.subs-btn{
+	background-color: white;
+    padding: 6px 10px;
+    height: 39px;
+    border: solid 1px #4a7384;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.subs{
+	background-color: white;
+    padding: 6px 10px;
+    height: 39px;
+    border: solid 1px #4a7384;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-right: none;
+}
+
+.subs-btn:hover{
+	cursor: pointer;
+}
+
+.white{
+	color: white;
+	letter-spacing: 1.5px;
+}
+
+img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.social-link img{
+	width: 40px;
+}
+
+.footer-links{
+	list-style: none;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-left: 0px;
+}
+
+.footer-links li{
+	list-style: none;
+    display: inline-block;
+    color: white;
+    margin: 0px;
+    font-size: 16px;
+    font-family: PantonLightCaps;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.footer-links li:hover{
+	border-bottom: none;
+}
+
+.line{
+	display: inline-block;
+    border-left: solid 1px white;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    margin: 0px 6px;
+    left: 3px;
+}
+
+.social-media{
+	float: right;
+}
+
+iframe{
+	margin: 20px;
+	width: 90%;
+    display: block;
+    margin: 0px auto;
+    border: solid 1px #c5c5c5;
+    height: 290px;
+}
+
+.about-img{
+	    border-bottom: solid 1px grey;
+    border-radius: 500px;
+    width: 200px;
+    height: 200px;
+    background: url('../img/me.jpg') center;
+	background-size: cover;
+}
+
+
+/*ALL MEDIA QUERIES for main image top section and text within*/
+
+/*when window/device res is 1024px or wider*/
+/*desktop and larger*/
+@media screen and (min-width: 1024px) {
+	.bg{
+		background-position: 0px 0px;
+		height: 600px; 
+	}
+
+	.logo{
+		margin-left: 10px;
+		margin-right: 0px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.links{
+		top: 36px;
+	}
+
+	.jumbo-text-main{
+		font-size: 60px;
+	}
+	.jumbo-text-sub{
+		font-size: 18px;
+	}
+
+}
+  
+/*Between 1023px and 900px*/
+/*smaller than desktop moving to tablet dimensions*/
+@media screen and (max-width: 1023px) and (min-width: 900px) {
+	.bg{
+		height: 500px;
+	}
+
+	.logo{
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.links{
+		top: 30px;
+	}
+
+	.jumbo-text-main{
+		font-size: 50px;
+	}
+	.jumbo-text-sub{
+		font-size: 16px;
+	}
+}
+
+/*Between 899px and 500px*/
+@media screen and (max-width: 899px) and (min-width: 500px) {
+	.bg{
+		height: 450px;
+	}
+
+	.logo{
+		margin-left: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		font-size: 28px;
+	}
+
+	.links{
+		display: none;
+	}
+	.mobile{
+		position: absolute;
+		margin-left: 0px;
+	    padding-left: 12px;
+	    width: 100%;
+	    overflow: hidden;
+	    top: 46px;
+	    background-color: white;
+	}
+	.burger{
+		display: block;
+	    width: 50px;
+	    height: 50px;
+	    position: absolute;
+	    top: 11px;
+	    right: 14px;
+	    border-radius: 7px;
+	}
+	.mobile li:hover{
+		outline: none;
+		border:none;
+		cursor: pointer;
+		color: black;
+	}
+
+	.section-text-head{
+	    font-size: 25px;
+	}
+	.under-logo{
+		position: absolute;
+	    bottom: -30px;
+	    left: 11px;
+	    font-size: 13px;
+	}
+
+		
+}
+
+/*500px or less*/
+@media screen and (max-width: 499px) and (min-width: 1px) {
+	.bg{
+		height: 400px;
+		background-position: -300px 0px;
+	}
+	.logo{
+		margin-left: 10px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		font-size: 26px;
+	}
+
+	.under-logo{
+		display: none;
+	}
+
+	.links{
+		display: none;
+	}
+	.mobile{
+		position: absolute;
+		margin-left: 0px;
+	    padding-left: 12px;
+	    width: 100%;
+	    overflow: hidden;
+	    top: 46px;
+	    background-color: white;
+	}
+	.mobile li:hover{
+		outline: none;
+		border:none;
+		cursor: pointer;
+		color: black;
+	}
+	.burger{
+		display: block;
+	    width: 50px;
+	    height: 50px;
+	    position: absolute;
+	    top: 11px;
+	    right: 14px;
+	    border-radius: 7px;
+	}
+
+	.section-text-head{
+	    font-size: 20px;
+	}
+
+}
+
+
